@@ -1,0 +1,29 @@
+
+Sender: Unischeduler System <likai_stu@ln01>
+Subject: Job 3656: </gpfs/home/likai_stu/miniconda3/envs/torch/bin/python tools/train.py configs/mae/upernet_mae-base_fp16_512x512_160k_ade20k_ms.py --work-dir upernet_mae-base_my_dataset_work_result4> Exited
+
+Job </gpfs/home/likai_stu/miniconda3/envs/torch/bin/python tools/train.py configs/mae/upernet_mae-base_fp16_512x512_160k_ade20k_ms.py --work-dir upernet_mae-base_my_dataset_work_result4> was submitted from host <ln01> by user <likai_stu>.
+Job was executed on host(s) <8*gpu01>, in queue <qgpu>, as user <likai_stu>.
+</gpfs/home/likai_stu> was used as the home directory.
+</gpfs/home/likai_stu/mmsegmentation> was used as the working directory.
+Started at 2022-05-31 19:29:09
+Results reported at 2022-05-31 19:29:36
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+/gpfs/home/likai_stu/miniconda3/envs/torch/bin/python tools/train.py configs/mae/upernet_mae-base_fp16_512x512_160k_ade20k_ms.py --work-dir upernet_mae-base_my_dataset_work_result4
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :            6.49 sec.
+    Max Memory :               251 MB
+    Max Processes  :               3
+
+
+The output (if any) follows:
+

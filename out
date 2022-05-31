@@ -1,0 +1,52 @@
+
+Sender: Unischeduler System <likai_stu@ln01>
+Subject: Job 3657: <nvidia-smi> Done
+
+Job <nvidia-smi> was submitted from host <ln01> by user <likai_stu>.
+Job was executed on host(s) <1*gpu01>, in queue <qgpu>, as user <likai_stu>.
+</gpfs/home/likai_stu> was used as the home directory.
+</gpfs/home/likai_stu/mmsegmentation> was used as the working directory.
+Started at 2022-05-31 19:29:13
+Results reported at 2022-05-31 19:29:14
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+nvidia-smi
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :            0.01 sec.
+    Max Memory :                10 MB
+    Max Processes  :               1
+
+
+The output (if any) follows:
+
+Tue May 31 19:29:14 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.67       Driver Version: 418.67       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla T4            On   | 00000000:2F:00.0 Off |                    0 |
+| N/A   71C    P0    32W /  70W |  14949MiB / 15079MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            On   | 00000000:86:00.0 Off |                    0 |
+| N/A   77C    P0    35W /  70W |  14823MiB / 15079MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0    269447      C   ...yang_stu/new/yes/envs/yolov5/bin/python  6003MiB |
+|    0    443335      C   python                                      8939MiB |
+|    1    269447      C   ...yang_stu/new/yes/envs/yolov5/bin/python  3917MiB |
+|    1    443335      C   python                                     10899MiB |
++-----------------------------------------------------------------------------+
